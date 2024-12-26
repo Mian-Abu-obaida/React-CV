@@ -13,7 +13,7 @@ const CVPage2 = ({ onPrevPage }) => {
           <div key={index} className="mb-6">
             <div className="flex justify-between items-center mb-4">
               <h3 className="text-[20px] font-bold mb-4 text-[#444]">{project.name}</h3>
-              <span className="text-[14px] text-[#666]">{project.type}</span>
+              <span className="bg-gray-100 px-3 py-1 rounded-full text-[14px] text-[#666]">{project.type}</span>
             </div>
             <p className="text-[14px] text-[#555] mb-4 leading-[1.6]">{project.description}</p>
             
@@ -22,7 +22,7 @@ const CVPage2 = ({ onPrevPage }) => {
               <div key={subIndex} className="ml-6 mb-4">
                 <div className="flex justify-between items-center mb-2">
                   <h4 className="text-[14px] font-medium text-[#555]">{subProject.name}</h4>
-                  <span className="text-[14px] text-[#666]">{subProject.type}</span>
+                  <span className="bg-gray-100 p-3  rounded-full text-[14px] text-[14px] text-[#666]">{subProject.type}</span>
                 </div>
                 {subProject.description && (
                   <p className="text-[14px] text-[#555] leading-[1.6]">{subProject.description}</p>

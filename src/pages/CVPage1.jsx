@@ -46,7 +46,7 @@ const CVPage1 = ({ onNextPage }) => {
               </h3>
               <p className="text-[14px] text-[#666]">{job.duration}</p>
             </div>
-            <div className="flex mb-3">
+            <div className="flex justify-between items-center mb-3">
               <h4 className="text-[14px] font-medium mb-2 me-4 text-[#555]">Projects:</h4>
               <div className="flex flex-wrap gap-2">
                 {job.projects.map((project, projectIndex) => (
