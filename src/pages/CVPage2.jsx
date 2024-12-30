@@ -2,8 +2,13 @@ import cvData from '../data/CVData.json';
 import { FaGlobe, FaPhone, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { BsBehance } from "react-icons/bs";
+import { useEffect } from 'react';
 
 const CVPage2 = ({ onPrevPage }) => {
+  
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [onPrevPage]); 
   return (
     <div className="max-w-[850px] mx-auto p-4 sm:p-6 md:p-8 bg-white font-['Arial']">
       {/* Freelance Projects */}

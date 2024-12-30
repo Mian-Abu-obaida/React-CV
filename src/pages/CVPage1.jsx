@@ -2,8 +2,12 @@ import { MdLocationOn } from "react-icons/md";
 import { FaGlobe, FaPhone } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import cvData from '../data/CVData.json';
+import { useEffect } from "react";
 
 const CVPage1 = ({ onNextPage }) => {
+  useEffect(() => {
+        window.scrollTo(0, 0);
+      }, [onNextPage]);
   return (
     <div className="max-w-[850px] mx-auto p-4 sm:p-6 md:p-8 bg-white font-['Arial']">
       {/* Header */}
