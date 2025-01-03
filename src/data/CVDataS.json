@@ -1,0 +1,101 @@
+{
+    "personalInfo": {
+      "name": "Your Name",
+      "position": "Position",
+      "location": "Lahore",
+      "portfolio": "Portfolio",
+      "email": "abcd@gmail.com",
+      "phone": "+923101234567",
+      "linkedin": "LinkedIn",
+      "website": "My Personal Website"
+    },
+    "professionalSummary": "Lorem ipsum dolor sit amet consectetur. Lacus ullamcorper scelerisque id a facilisis nunc. Massa elit in pellentesque viverra urna. In velit cras mauris ut in turpis. At augue interdum in pellentesque. Faucibus volutpat nec pretium sed. Libero sed pellentesque nisi pretium eros et et augue quisque. Fames rhoncus ut est gravida porttitor fermentum. Molestie senectus in urna sed. Nunc id elementum suspendisse nunc purus egestas. Eu duis in semper ipsum velit eget quisque. Tortor dignissim eget sem velit netus dictumst dictum hendrerit. Risus erat sed eget tempus arcu. Odio integer risus faucibus vitae.",
+    "workHistory": [
+      {
+        "position": "Senior Software Engineer",
+        "company": "Tech Solutions Inc.",
+        "duration": "2022 - Present",
+        "projects": ["Cloud Migration", "E-commerce Platform", "Mobile App", "API Gateway", "Dashboard Analytics"],
+        "responsibilities": [
+          "Led a team of 5 developers in developing and maintaining enterprise-level applications, ensuring project deliverables met deadlines and quality standards",
+          "Implemented microservices architecture reducing system downtime by 40% and improving scalability across multiple services",
+          "Established CI/CD pipelines and automated deployment processes, reducing deployment time from 2 hours to 15 minutes",
+          "Mentored junior developers through code reviews, pair programming sessions, and technical documentation improvements",
+          "Architected and implemented real-time analytics dashboard processing over 1M daily events with sub-second latency"
+        ]
+      },
+      {
+        "position": "Full Stack Developer",
+        "company": "Digital Innovations Ltd",
+        "duration": "2020 - 2022",
+        "projects": ["Customer Portal", "Payment Gateway", "CRM System", "Inventory Management"],
+        "responsibilities": [
+          "Developed and maintained multiple web applications using React and Node.js, serving over 100,000 monthly active users",
+          "Optimized database queries and implemented caching strategies resulting in 50% faster load times",
+          "Integrated third-party APIs and payment gateways, processing transactions worth $2M annually",
+          "Implemented responsive design principles ensuring seamless user experience across all devices",
+          "Created comprehensive API documentation and maintained technical specifications for team reference"
+        ]
+      },
+      {
+        "position": "Junior Developer",
+        "company": "StartUp Ventures",
+        "duration": "2018 - 2020",
+        "projects": ["Company Website", "Internal Tools", "Marketing Dashboard"],
+        "responsibilities": [
+          "Collaborated in the development of responsive web applications using modern JavaScript frameworks",
+          "Implemented automated testing strategies reducing bug reports by 30% in production",
+          "Participated in daily scrum meetings and sprint planning to ensure efficient project delivery",
+          "Developed and maintained RESTful APIs supporting mobile and web applications",
+          "Assisted in database design and optimization for improved application performance"
+        ]
+      }
+    ],
+    "freelanceProjects": [
+    {
+      "name": "DivergeGPT",
+      "type": "Web Application",
+      "description": "For the DivergeGPT project, I was responsible for designing the user interface and experience of the web application, which is a ChatGPT-based file-reading assistant. My tasks included creating wireframes, conducting a SWOT analysis, and developing flow charts to map out user interactions and navigation pathways. These elements were crucial in ensuring an intuitive and effective design, facilitating smooth and efficient document management for users.",
+      "Projects":[ 
+        {
+        "name": "Project Name",
+        "type": "Project Type (SaaS, website etc)",
+        "description": ""
+        },
+        {
+        "name": "Project Name",
+        "type": "Project Type (SaaS, website etc)",
+        "description": ""
+        },
+        {
+        "name": "Project Name",
+        "type": "Project Type (SaaS, website etc)",
+        "description": ""
+        },
+        {
+        "name": "Project Name",
+        "type": "Project Type (SaaS, website etc)",
+        "description": ""
+        },
+      {
+        "name": "Project Name",
+        "type": "Project Type (SaaS, website etc)",
+        "description": ""
+      }
+    ]
+}
+  ],
+  "techSkills": "Lorem ipsum dolor sit amet consectetur. Varius aliquet phasellus tempus aliquam sed ullamcorper duis sed in. Adipiscing amet felis hac congue interdum in lacus scelerisque. Nulla vivamus ut dignissim pellentesque ultricies et orci sollicitudin vel. In ultricies ut facilisis duis.",
+  "tools": "Lorem ipsum dolor sit amet consectetur. Varius aliquet phasellus tempus aliquam sed ullamcorper duis sed in. Adipiscing amet felis hac congue interdum in lacus scelerisque. Nulla vivamus ut dignissim pellentesque ultricies et orci sollicitudin vel. In ultricies ut facilisis duis.",
+  "certifications": [
+    "Certificate Name",
+    "Certificate Name",
+    "Certificate Name",
+    "Certificate Name",
+    "Certificate Name"
+  ],
+  "education": {
+    "university": "University",
+    "duration": "Start Time - Present"
+  }
+  }
